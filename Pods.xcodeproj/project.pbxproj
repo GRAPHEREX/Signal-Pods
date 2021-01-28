@@ -2083,6 +2083,8 @@
 		F233F53A38B18A84B3862E9C55A9BCD8 /* Randomness.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E369D4C8FD55A01B90536DE1EE7884D /* Randomness.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F244132D11F9014DA24EDC5D96EC5190 /* ge_add.c in Sources */ = {isa = PBXBuildFile; fileRef = CF5239BB28112EB71A1BC1FD90A46DD0 /* ge_add.c */; };
 		F245FA47F45F95F3D2C4D1FD6025C02D /* OWSRequestFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF0169D97B4B9E62AD627C60D31C34E /* OWSRequestFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F288FF3625C34FBE00FD50DF /* grapherex_prod.cer in Resources */ = {isa = PBXBuildFile; fileRef = F288FF3425C34FBD00FD50DF /* grapherex_prod.cer */; };
+		F288FF3725C34FBE00FD50DF /* grapherex_dev.cer in Resources */ = {isa = PBXBuildFile; fileRef = F288FF3525C34FBD00FD50DF /* grapherex_dev.cer */; };
 		F28FB8E5778697A7286C88895E880F7A /* RemoteAttestationSigningCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605B009726E420DFDDAFB641F220757A /* RemoteAttestationSigningCertificate.m */; settings = {COMPILER_FLAGS = "-fcxx-modules"; }; };
 		F29082CEACCD6878BD982D49F228DABE /* TSMessageStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D07CB29C7635F33B64ACA564A5551 /* TSMessageStorageTests.m */; settings = {COMPILER_FLAGS = "-fcxx-modules"; }; };
 		F294E4E825C348E7000D9034 /* ContactsUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = F294E4E525C348E7000D9034 /* ContactsUpdater.m */; };
@@ -6054,6 +6056,8 @@
 		F237E2D358B28E41DA03567586F362F2 /* FakeStorageServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FakeStorageServiceManager.swift; sourceTree = "<group>"; };
 		F260C67059DC6A9AA35491D09F36B97D /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
 		F2812506D25B9F2F6DBB866A4E23FE11 /* Pods-Signal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Signal-frameworks.sh"; sourceTree = "<group>"; };
+		F288FF3425C34FBD00FD50DF /* grapherex_prod.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = grapherex_prod.cer; sourceTree = "<group>"; };
+		F288FF3525C34FBD00FD50DF /* grapherex_dev.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = grapherex_dev.cer; sourceTree = "<group>"; };
 		F28A5A9B78D2D276C0435659E5258EC0 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
 		F294E4E525C348E7000D9034 /* ContactsUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsUpdater.m; sourceTree = "<group>"; };
 		F294E4E625C348E7000D9034 /* ContactsUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsUpdater.h; sourceTree = "<group>"; };
@@ -8034,6 +8038,8 @@
 				FF328E2F195730D80634D35B3AB0C87C /* ias-root.cer */,
 				329CF75AB29F08EF7BB61E9DB13857AC /* SFSRootCAG2.crt */,
 				B1DA3B59E53C7079F1327856E0F8078D /* textsecure.cer */,
+				F288FF3525C34FBD00FD50DF /* grapherex_dev.cer */,
+				F288FF3425C34FBD00FD50DF /* grapherex_prod.cer */,
 			);
 			name = Certificates;
 			path = SignalServiceKit/Resources/Certificates;
@@ -12587,6 +12593,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F288FF3625C34FBE00FD50DF /* grapherex_prod.cer in Resources */,
 				307091A525434D9FD70B5F05C9539B2A /* DigiCertGlobalRootG2.crt in Resources */,
 				2BC8026DFADF2ADD92BA522F0371D24A /* DigiCertSHA2HighAssuranceServerCA.crt in Resources */,
 				3C7503D3502DDB953186A8FC0292EBB4 /* GIAG2.crt in Resources */,
@@ -12594,6 +12601,7 @@
 				503445B14972D7CA88C81A250DB2713B /* GSR4.crt in Resources */,
 				34B522EB9F6ADBB86920BFEA5A62963B /* GTSR1.crt in Resources */,
 				541EE8E4C230B20767945BDD9365243B /* GTSR2.crt in Resources */,
+				F288FF3725C34FBE00FD50DF /* grapherex_dev.cer in Resources */,
 				5C4883576689D2CC96E624CC0801E160 /* GTSR3.crt in Resources */,
 				04E9B39DBDD712320A1479CF25B76AAA /* GTSR4.crt in Resources */,
 				1B8E9B00A7336EEB8D8C5F78D363C11F /* ias-root.cer in Resources */,
