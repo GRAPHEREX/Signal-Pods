@@ -151,7 +151,6 @@
 		0DD663B5D75BC375A716111C13466B40 /* yuv_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F093F312A3A1A9BB6FAC16F62B531E5 /* yuv_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		0DEDB538DE41556BE6BD32CE12F36304 /* SignalCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA181380DA508942CB432B0BD93CEE64 /* SignalCoreKit.framework */; };
 		0E2C6873EDD083A13AD1D4EC47AA33CA /* BulkProfileFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B67DA619D515C48B77834C1F5CDA0B /* BulkProfileFetch.swift */; settings = {COMPILER_FLAGS = "-fcxx-modules"; }; };
-		0E776EE1C6BFC320A6EE0D594E2CC800 /* UUIDBackfillTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D0F235D68E9AA898C67EC26260777 /* UUIDBackfillTask.swift */; settings = {COMPILER_FLAGS = "-fcxx-modules"; }; };
 		0E7B8FFF73B353013272FC2EB685AFC3 /* YapCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 279167C57345DE37CA83730CE0E56B25 /* YapCache.m */; };
 		0F1280F89AFDE0D450948097CDE4701D /* TextFormatEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9120095159239B9ACEDAA5ADBF02B /* TextFormatEncoder.swift */; };
 		0F206AEEDD2AAB78A86D2F34C311ADAF /* OWSSyncConfigurationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 062EDE695F74518CC29B401C7AD03C90 /* OWSSyncConfigurationMessage.m */; settings = {COMPILER_FLAGS = "-fcxx-modules"; }; };
@@ -6021,7 +6020,6 @@
 		EEA034C418FCE7542B3C92F40688109A /* SDSDatabaseStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDSDatabaseStorage.swift; sourceTree = "<group>"; };
 		EEA341967320C0205FF2C2A6EC44F49F /* AttachmentFinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttachmentFinder.swift; sourceTree = "<group>"; };
 		EEF22EF633A2DA019072D32498707CD2 /* YapDatabaseFilteredViewTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YapDatabaseFilteredViewTypes.h; path = YapDatabase/Extensions/FilteredView/YapDatabaseFilteredViewTypes.h; sourceTree = "<group>"; };
-		EF0D0F235D68E9AA898C67EC26260777 /* UUIDBackfillTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UUIDBackfillTask.swift; sourceTree = "<group>"; };
 		EF32FDFE1A7C441AA50F493038ED0E4C /* CallManagerGlobal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CallManagerGlobal.swift; sourceTree = "<group>"; };
 		EF783E4999ED122FE4BAA4A0FE491CFF /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
 		EF8F4EEAFB3E6E5EBD9F6B5D0B698654 /* SignalRingRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignalRingRTC.release.xcconfig; sourceTree = "<group>"; };
@@ -9847,7 +9845,6 @@
 				22B6495CD1352246306B743B1C7C6F69 /* ContactDiscoveryOperation.swift */,
 				A3B97738E0024DC32043313DC84C8583 /* ContactDiscoveryTask.swift */,
 				096CE94230DCA4BEE7FC0DE12360961B /* ModernContactDiscoveryOperation.swift */,
-				EF0D0F235D68E9AA898C67EC26260777 /* UUIDBackfillTask.swift */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -14104,7 +14101,6 @@
 				7DC7DD8F91F9AE125342ECA8D254C81C /* UIImage+OWS.m in Sources */,
 				4D5685A90CBD57D5A067706CE17A7E62 /* UnfairLock.swift in Sources */,
 				7D47A1A41815F3D7AAC3BEE3A55DEC35 /* UserProfileFinder.swift in Sources */,
-				0E776EE1C6BFC320A6EE0D594E2CC800 /* UUIDBackfillTask.swift in Sources */,
 				167D55E7F9827AB8F577E9396EA53D17 /* VersionedProfiles.swift in Sources */,
 				05516D67588BDB5AE08FCD2BCFAA1E90 /* ViewOnceMessages.swift in Sources */,
 				CAC5BF21EE9249D845F27824F5F5AB7B /* Weak.swift in Sources */,
